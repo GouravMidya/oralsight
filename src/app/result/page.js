@@ -1,8 +1,6 @@
-import React from 'react'
-import { ResultPageComponent } from '@/components/result-page'
+// app/results/page.js
+import { ResultsPageClient } from './ResultsPageClient'
 
-export default function resultPage() {
-  return (
-    <ResultPageComponent />
-  )
+export default function ResultsPage() {
+  return <ResultsPageClient />
 }
